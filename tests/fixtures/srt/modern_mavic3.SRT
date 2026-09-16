@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:00,033
+<font size="28">SrtCnt : 1, DiffTime : 33ms
+2023-05-20 10:30:45.123
+[iso : 100] [shutter : 1/1000.0] [fnum : 280] [ev : 0] [focal_len : 240] [latitude: 12.971599] [longitude: 77.594566] [rel_alt: 50.100 abs_alt: 920.300] [gb_yaw: 350.0] [gb_pitch: -89.9] [gb_roll: 0.0] </font>
+
+2
+00:00:00,033 --> 00:00:00,066
+<font size="28">SrtCnt : 2, DiffTime : 33ms
+2023-05-20 10:30:45.156
+[iso : 100] [shutter : 1/1000.0] [fnum : 280] [ev : 0] [focal_len : 240] [latitude: 12.971699] [longitude: 77.594666] [rel_alt: 50.400 abs_alt: 920.600] [gb_yaw: 10.0] [gb_pitch: -89.8] [gb_roll: 0.1] </font>

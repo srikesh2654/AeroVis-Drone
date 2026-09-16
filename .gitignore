@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# data: large, never committed. Fixtures under tests/fixtures/ ARE committed.
+data/raw/
+data/work/
+data/out/
+
+# node
+web/node_modules/
+web/dist/
+
+.vscode/
+.idea/

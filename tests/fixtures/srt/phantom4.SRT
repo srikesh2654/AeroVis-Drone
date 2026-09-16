@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:00,033
+<font size="36">FrameCnt : 1, DiffTime : 33ms
+2020-01-01 10:00:00,000,000
+[iso : 100] [shutter : 1/1000] [fnum : 280] [ev : 0] [ct : 5500] [color_md : default] [focal_len : 240] [latitude : 12.9716] [longitude : 77.5946] [altitude: 100.5] </font>
+
+2
+00:00:00,033 --> 00:00:00,066
+<font size="36">FrameCnt : 2, DiffTime : 33ms
+2020-01-01 10:00:00,033,000
+[iso : 100] [shutter : 1/1000] [fnum : 280] [ev : 0] [ct : 5500] [color_md : default] [focal_len : 240] [latitude : 12.9717] [longitude : 77.5947] [altitude: 101.0] </font>

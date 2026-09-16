@@ -1,0 +1,31 @@
+# Workstreams 2-6: telemetry ingest, frame curation, geo products, viewer/API.
+# Pure-Python + prebuilt wheels only. No CUDA, no COLMAP, no build step.
+# Install:  .venv\Scripts\python -m pip install -r requirements-lite.txt
+
+numpy>=2.0
+scipy>=1.14
+opencv-python>=4.10
+av>=14.0                # video demux (PyAV)
+pillow>=10.0
+
+# telemetry
+pymavlink>=2.4.49
+piexif>=1.1.3
+
+# geo
+pyproj>=3.7
+rasterio>=1.4
+laspy[lazrs]>=2.5
+shapely>=2.0
+
+# meshes / clouds
+trimesh>=4.0
+open3d>=0.19            # caps Python at 3.12 -- see docs/setup.md
+
+# api
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic>=2.9
+
+# dev
+pytest>=8.0

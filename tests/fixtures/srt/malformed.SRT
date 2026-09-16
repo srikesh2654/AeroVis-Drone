@@ -1,0 +1,6 @@
+this is not an srt at all
+just some garbage
+
+1
+no timecode here either
+[latitude: 12.9716] [longitude: 77.5946]

@@ -1,0 +1,18 @@
+# Workstream 1 (geometry spine) = everything in requirements-lite.txt, plus the heavy stack.
+#
+# Install order matters -- torch MUST come from the CUDA index first:
+#   .venv\Scripts\python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#   .venv\Scripts\python -m pip install -r requirements.txt
+#
+# Verify with:  .venv\Scripts\python scripts\check_env.py
+
+-r requirements-lite.txt
+
+pycolmap>=4.2           # prebuilt cp312 win_amd64 wheel -- no COLMAP build required
+transformers>=4.45      # Depth Anything V2 metric, for S4 Tier A
+timm>=1.0
+ultralytics>=8.3        # YOLO-seg, for S2 dynamic masking
+
+# NOT installable on this machine (no nvcc, no MSVC -- both build from source):
+#   gsplat        -> S4 Tier C Gaussian splatting. Confirmed cut.
+#   pdal          -> no Windows wheels at all. Use GDAL CLI / rasterio instead.
